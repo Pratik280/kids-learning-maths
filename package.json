@@ -1,0 +1,21 @@
+{
+  "name": "kids-learning-maths",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "watch-css": "npx tailwindcss -i ./src/styles/input.css -o ./dist/output.css --watch",
+    "build-css": "npx tailwindcss -i ./src/styles/input.css -o ./dist/output.css --minify",
+    "dev": "live-server ./dist/",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://pratik280.github.io/kids-learning-maths",
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "live-server": "^1.2.1",
+    "tailwindcss": "^3.0.22"
+  }
+}
